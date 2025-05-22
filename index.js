@@ -13,6 +13,9 @@ const PORT=process.env.PORT          ///////port imported from .env file
 const app=express()
 
 
+app.use(express.json())
+
+
 app.use('/auth',AutRoutes)   // exported from auth.js 
 
 app.get('/',(req,res)=>{
