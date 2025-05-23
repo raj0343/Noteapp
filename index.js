@@ -25,3 +25,5 @@ app.get('/',(req,res)=>{
 app.listen(PORT,()=>{
     console.log(`server is running on port ${PORT}`)          /////import from .env as a port 
 })
+
+console.log("server is running")
